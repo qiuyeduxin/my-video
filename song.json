@@ -1,0 +1,33 @@
+{
+    "errno": 0, 
+    "error": "", 
+    "data": {
+        "appUrl": "cqhaochang://v4.haochang.com/eyJ1cmwiOiJwbGF5bGlzdFwvc29uZ3MiLCJ0YXJnZXQiOiJhcHAiLCJwbGF5bGlzdElkIjoiMDYyY2YzODMtNmE0Ny00MTljLWFjMmMtMzllY2UwNjBhYWU5IiwidGl0bGUiOiJcdTU1OWNcdTZiNjFcdTc2ODRcdTZiNGMifQ==", 
+        "name": "喜歡的歌", 
+        "cover": "http://files.haochang.tv/file/user/playlist/062cf383-6a47-419c-ac2c-39ece060aae9/IM100732551456351272899.jpg", 
+        "intro": "唱自己喜歡的歌", 
+        "count": 2, 
+        "user": {
+            "id": 10073255, 
+            "nickname": "JaneHua"
+        }, 
+        "songs": [
+            {
+                "id": 1, 
+                "type":1,
+                "name": "斑马斑马-高清版", 
+                "singer": "原唱：宋冬野",
+                 "sourceUrl": "http://audio-qn.okchang.com/tingting/music/201408/gyh_1407528815_10073255.m4a",
+                  "lyricUrl": "http://download-qn.okchang.com/song_lib/lrc/20140411/59438S7.txt"
+            }, 
+            {
+                "id": 2, 
+                 "type":2,
+                "name": "海阔天空", 
+                "singer": "黄家驹",
+                 "sourceUrl": "http://www.hongneer.com/templets/default/video/index_vidio.mp4",
+                  "lyricUrl": "http:\/\/musicdata.baidu.com\/data2\/lrc\/d8e0550f18cebfebc6cbc30379ac9b64\/262236886\/262236886.lrc"
+            }
+        ]
+    }
+}

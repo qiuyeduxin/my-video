@@ -1,0 +1,86 @@
+@import lib
+body,html,h1,div,ul,li,img,p
+  margin: 0
+  padding: 0
+body,html
+  height: 100%
+  width: 100%
+  font-family: "PingFangSC-Regular","Droid Sans","Microsoft yahei"
+  font-style: normal
+h1
+  font-weight: 400
+img
+  display: block
+  border: 0
+a
+  text-decoration: none
+ul,li
+  list-style: none
+.hidden
+  display: none !important
+.left
+  float: left
+.right
+  float: right
+  .fs24
+  font-size: 0.24rem
+.fs28
+  font-size: 0.28rem
+.fs32
+  font-size: 0.32rem
+.fs36
+  font-size: 0.36rem
+.fs48
+  font-size: 0.48rem
+.texthidden
+  white-space: nowrap
+  overflow: hidden
+  text-overflow: ellipsis
+.borderTop
+  position: relative
+  &:before
+    border-top: 1px solid #fff
+    position: absolute
+    opacity: 0.3
+    width: 100%
+    filter: alpha(30)
+    top: 0
+    left: 0
+    content: ''
+    +transform(scaleY(0.5))
+.borderBottom
+  position: relative
+  &:after
+    border-bottom: 1px solid #fff
+    position: absolute
+    opacity: 0.3
+    filter: alpha(30)
+    bottom: 0
+    width: 100%
+    left: 0
+    content: ''
+    +transform(scaleY(0.5))
+.wrapper
+  max-width: 10rem
+  min-width: 320px
+  margin: 0 auto
+  height: 100%
+  color: #212121
+  a
+    color: #212121
+  .container
+    min-height: 100%
+    width: 100%
+    padding-bottom: 1.5rem
+    box-sizing: border-box
+    position: relative
+  .container-bg
+    background: url(../images/icon/icon-userInfo-bg.jpg) no-repeat
+    background-size: cover
+  .containerSidePadding
+    padding-left: 0.3rem
+    padding-right: 0.3rem
+  .side-transition 
+    transition: transform .2s ease
+  .side-enter, .side-leave
+    transform: translate(100%,0)
