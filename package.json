@@ -1,6 +1,6 @@
 {
-  "name": "yuki-project",
-  "description": "A Vue.js project",
+  "name": "my-video",
+  "description": "A 1.0Vue.js project",
   "author": "",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot",
